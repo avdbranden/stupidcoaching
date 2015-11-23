@@ -1,0 +1,11 @@
+<div class="answer text-center">
+  <h1>Your answer is:</h1>
+  <p><%= @query %></p>
+  <p> <%= @answer %></p>
+
+  <% unless @answer == 'Exercise finished' %>
+    <button class="btn btn-success" type="submit">
+      <%= link_to "Go", ask_path %>
+    </button>
+  <% end %>
+</div>

@@ -1,0 +1,21 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#question {
+  width: auto;
+  margin: 20px auto;
+}
+
+.intro {
+  margin-top: 15px;
+}
+
+.answer h1{
+  font-size: 40px;
+  color: blue;
+}
+
+.answer p {
+  font-size: 20px;
+}
